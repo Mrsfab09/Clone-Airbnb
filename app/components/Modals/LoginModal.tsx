@@ -84,7 +84,7 @@ const LoginModal = () => {
         icon={FcGoogle}
       />
       <Button
-        onClick={() => {}}
+        onClick={() => signIn("github")}
         outline
         label="Continue with Github"
         icon={AiFillGithub}
